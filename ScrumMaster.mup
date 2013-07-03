@@ -1,0 +1,23 @@
+{
+  "title": "ScrumMaster",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Standups",
+      "id": 2
+    },
+    "2": {
+      "title": "Algemeen",
+      "id": 4
+    },
+    "-1": {
+      "title": "Retrospective",
+      "id": 3
+    },
+    "-2": {
+      "title": "Planning / Grooming",
+      "id": 5
+    }
+  }
+}
