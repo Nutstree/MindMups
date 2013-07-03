@@ -4,8 +4,32 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "Standups",
-      "id": 2
+      "title": "Standup",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Team Values",
+          "id": 6
+        },
+        "0.5": {
+          "title": "Status",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Wat heb je gedaan?",
+              "id": 8
+            },
+            "2": {
+              "title": "Wat ga je doen?",
+              "id": 9
+            },
+            "3": {
+              "title": "Zijn er belemmeringen?",
+              "id": 10
+            }
+          }
+        }
+      }
     },
     "2": {
       "title": "Algemeen",
