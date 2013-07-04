@@ -9,7 +9,12 @@
       "ideas": {
         "1": {
           "title": "Team Values",
-          "id": 6
+          "id": 6,
+          "attr": {
+            "style": {
+              "background": "#ccffff"
+            }
+          }
         },
         "0.5": {
           "title": "Status",
@@ -17,17 +22,42 @@
           "ideas": {
             "1": {
               "title": "Wat heb je gedaan?",
-              "id": 8
+              "id": 8,
+              "attr": {
+                "style": {
+                  "background": "#ccffff"
+                }
+              }
             },
             "2": {
               "title": "Wat ga je doen?",
-              "id": 9
+              "id": 9,
+              "attr": {
+                "style": {
+                  "background": "#ccffff"
+                }
+              }
             },
             "3": {
               "title": "Zijn er belemmeringen?",
-              "id": 10
+              "id": 10,
+              "attr": {
+                "style": {
+                  "background": "#ccffff"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ccffff"
             }
           }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ccffff"
         }
       }
     },
@@ -37,11 +67,318 @@
     },
     "-1": {
       "title": "Retrospective",
-      "id": 3
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Continues improvement",
+          "id": 12,
+          "attr": {
+            "style": {
+              "background": "#ff9900"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff9900"
+        }
+      }
     },
     "-2": {
-      "title": "Planning / Grooming",
-      "id": 5
+      "title": "Planning",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "Voorbereiding",
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "Stories",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "Doel",
+                  "id": 34,
+                  "ideas": {
+                    "1": {
+                      "title": "100% ingeschat",
+                      "id": 35,
+                      "attr": {
+                        "style": {
+                          "background": "#008000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#008000"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "Tijdens",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "Stories",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "Wijzigingen",
+                  "id": 37,
+                  "ideas": {
+                    "1": {
+                      "title": "Opnieuw schatten?",
+                      "id": 38,
+                      "attr": {
+                        "style": {
+                          "background": "#008000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#008000"
+                }
+              }
+            },
+            "2": {
+              "title": "Zo min mogelijk",
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "groomen",
+                  "id": 40,
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#008000"
+                }
+              }
+            },
+            "3": {
+              "title": "Zo veel mogelijk",
+              "id": 41,
+              "ideas": {
+                "1": {
+                  "title": "Wat past er in de sprint",
+                  "id": 42,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#008000"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#008000"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#008000"
+        }
+      }
+    },
+    "-12": {
+      "title": "Grooming",
+      "id": 14,
+      "ideas": {
+        "4": {
+          "title": "Story",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "Duidelijk?",
+              "id": 21,
+              "ideas": {
+                "1": {
+                  "title": "Iedereen?",
+                  "id": 29,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "Schatten",
+              "id": 25,
+              "ideas": {
+                "1": {
+                  "title": "Verschillen",
+                  "id": 26,
+                  "ideas": {
+                    "1": {
+                      "title": "Groot",
+                      "id": 27,
+                      "ideas": {
+                        "1": {
+                          "title": "Discussie",
+                          "id": 30,
+                          "ideas": {
+                            "1": {
+                              "title": "Tussen uitersten",
+                              "id": 31,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Klein",
+                      "id": 28,
+                      "ideas": {
+                        "1": {
+                          "title": "weinig/geen discussie",
+                          "id": 33,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "klein is goed",
+                  "id": 23,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Te groot?",
+                  "id": 17,
+                  "ideas": {
+                    "1": {
+                      "title": "Splitsen",
+                      "id": 24,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "0.5": {
+                  "title": "Schatbaar?",
+                  "id": 22,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "style": {
+      "background": "#333333"
     }
   }
 }
