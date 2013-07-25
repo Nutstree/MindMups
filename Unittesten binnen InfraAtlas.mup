@@ -22,25 +22,58 @@
                     "style": {
                       "background": "#ff0000"
                     }
-                  }
-                },
-                "2": {
-                  "title": "Wens",
-                  "id": 10,
+                  },
                   "ideas": {
                     "1": {
-                      "title": "Mocking...",
-                      "id": 11,
-                      "attr": {
-                        "style": {
-                          "background": "#ff0000"
+                      "title": "Oplossing?",
+                      "id": 15,
+                      "ideas": {
+                        "2": {
+                          "title": "Mocking...",
+                          "id": 11,
+                          "attr": {
+                            "style": {
+                              "background": "#ff0000"
+                            }
+                          },
+                          "ideas": {}
+                        },
+                        "12": {
+                          "title": "developer schema",
+                          "id": 16,
+                          "ideas": {
+                            "1": {
+                              "title": "geen constraints/triggers",
+                              "id": 17,
+                              "ideas": {
+                                "1": {
+                                  "title": "http://stackoverflow.com/questions/7440008/is-there-any-way-to-apply-tdd-techniques-for-dev-in-pl-sql",
+                                  "id": 23
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "Overschrijf packages met test mock/stubs",
+                              "id": 20,
+                              "ideas": {
+                                "1": {
+                                  "title": "http://ora-exp.blogspot.nl/2011/11/test-automation-of-plsql-program-units.html",
+                                  "id": 21
+                                },
+                                "2": {
+                                  "title": "Lastig onderhouden?",
+                                  "id": 24,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff0000"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#ff0000"
                     }
                   }
                 }
@@ -53,7 +86,7 @@
             }
           }
         },
-        "4": {
+        "1.5": {
           "title": "Code richtlijn",
           "id": 12,
           "ideas": {
@@ -70,16 +103,86 @@
         }
       }
     },
-    "-1": {
+    "11": {
       "title": "SQL",
       "id": 3,
       "ideas": {
         "1": {
           "title": "DBUnit",
           "id": 4
+        },
+        "0.5": {
+          "title": "developer schema",
+          "id": 22
+        }
+      }
+    },
+    "-1": {
+      "title": "Haalbaarheid",
+      "id": 25,
+      "ideas": {
+        "1": {
+          "title": "Kosten",
+          "id": 26,
+          "ideas": {
+            "1": {
+              "title": "Opzetten framework?",
+              "id": 27
+            },
+            "2": {
+              "title": "Extra ontwikkeltijd?",
+              "id": 28
+            }
+          }
+        },
+        "2": {
+          "title": "Terugverdientijd",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "Hoelang heeft InfraAtlas bestaansrecht",
+              "id": 30
+            }
+          }
+        },
+        "3": {
+          "title": "developers",
+          "id": 31,
+          "ideas": {
+            "1": {
+              "title": "mindset",
+              "id": 32
+            },
+            "2": {
+              "title": "proberen",
+              "id": 33
+            },
+            "3": {
+              "title": "doen",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "zonder terugval",
+                  "id": 35
+                }
+              }
+            }
+          }
         }
       }
     }
   },
-  "links": []
+  "links": [
+    {
+      "ideaIdFrom": 22,
+      "ideaIdTo": 16,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    }
+  ]
 }
