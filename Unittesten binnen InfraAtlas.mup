@@ -15,65 +15,237 @@
               "title": "Geen isolatie",
               "id": 8,
               "ideas": {
-                "1": {
-                  "title": "Logica testen kan niet zonder onderliggende code aan te roepen",
+                "10.5": {
+                  "title": "Logica testen zonder onderliggende code",
                   "id": 9,
                   "attr": {
                     "style": {
                       "background": "#ff0000"
                     }
                   },
+                  "ideas": {}
+                },
+                "5.25": {
+                  "title": "developer schema",
+                  "id": 16,
                   "ideas": {
                     "1": {
-                      "title": "Oplossing?",
-                      "id": 15,
+                      "title": "geen constraints/triggers",
+                      "id": 17,
                       "ideas": {
                         "2": {
-                          "title": "Mocking...",
-                          "id": 11,
-                          "attr": {
-                            "style": {
-                              "background": "#ff0000"
-                            }
-                          },
-                          "ideas": {}
-                        },
-                        "12": {
-                          "title": "developer schema",
-                          "id": 16,
+                          "title": "uitleg",
+                          "id": 49,
                           "ideas": {
                             "1": {
-                              "title": "geen constraints/triggers",
-                              "id": 17,
-                              "ideas": {
-                                "1": {
-                                  "title": "http://stackoverflow.com/questions/7440008/is-there-any-way-to-apply-tdd-techniques-for-dev-in-pl-sql",
-                                  "id": 23
-                                }
-                              }
+                              "title": "http://stackoverflow.com/questions/7440008/is-there-any-way-to-apply-tdd-techniques-for-dev-in-pl-sql",
+                              "id": 23
                             },
-                            "3": {
-                              "title": "Overschrijf packages met test mock/stubs",
-                              "id": 20,
+                            "2": {
+                              "title": "Om lastige modelering op te vangen",
+                              "id": 50
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Mocking...",
+                      "id": 11,
+                      "attr": {
+                        "style": {
+                          "background": "#ff0000"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "Overschrijf packages met test mock/stubs",
+                          "id": 20,
+                          "ideas": {
+                            "1": {
+                              "title": "uitleg",
+                              "id": 48,
                               "ideas": {
                                 "1": {
                                   "title": "http://ora-exp.blogspot.nl/2011/11/test-automation-of-plsql-program-units.html",
                                   "id": 21
-                                },
-                                "2": {
-                                  "title": "Lastig onderhouden?",
-                                  "id": 24,
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "Lastig onderhouden?",
+                              "id": 24,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "Iedere package heeft teststub",
+                                  "id": 42,
                                   "attr": {
                                     "style": {
-                                      "background": "#ff0000"
+                                      "background": "#ff9900"
                                     }
                                   }
+                                },
+                                "2": {
+                                  "title": "wijziging signatures",
+                                  "id": 43,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Bijwerken teststubs...",
+                                      "id": 44,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "test framework die packages overschrijft met stub of echte package",
+                              "id": 47,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            },
+            "2": {
+              "title": "unittest framework",
+              "id": 55,
+              "ideas": {
+                "1": {
+                  "title": "utPLSQL",
+                  "id": 56,
+                  "ideas": {
+                    "1": {
+                      "title": "dood project",
+                      "id": 57,
+                      "attr": {
+                        "style": {
+                          "background": "#ff0000"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#ff0000"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "eis: Werkt vanuit",
+                  "id": 58,
+                  "ideas": {
+                    "2": {
+                      "title": "bouwstraat",
+                      "id": 61,
+                      "ideas": {
+                        "1": {
+                          "title": "jenkins",
+                          "id": 62
+                        }
+                      }
+                    },
+                    "12": {
+                      "title": "IDE",
+                      "id": 60,
+                      "ideas": {
+                        "1": {
+                          "title": "testondersteuning...",
+                          "id": 46,
+                          "ideas": {
+                            "1": {
+                              "title": "Eigen oplossingen...",
+                              "id": 63,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
                                 }
                               }
                             }
                           }
                         }
                       }
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Zelf testframework schrijven?",
+                  "id": 59,
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Testcode in SVN",
+                  "id": 36,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "Grote procedures/functies",
+              "id": 64,
+              "ideas": {
+                "1": {
+                  "title": "Schrijf kleine procedures/functions",
+                  "id": 5,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
                     }
                   }
                 }
@@ -84,40 +256,16 @@
                 }
               }
             }
-          }
-        },
-        "1.5": {
-          "title": "Code richtlijn",
-          "id": 12,
-          "ideas": {
-            "1": {
-              "title": "Schrijf kleine procedures/functions",
-              "id": 5,
-              "ideas": {}
-            },
-            "2": {
-              "title": "wrap SQL in kleine procedures/functions",
-              "id": 6
+          },
+          "attr": {
+            "style": {
+              "background": "#ff0000"
             }
           }
         }
       }
     },
-    "11": {
-      "title": "SQL",
-      "id": 3,
-      "ideas": {
-        "1": {
-          "title": "DBUnit",
-          "id": 4
-        },
-        "0.5": {
-          "title": "developer schema",
-          "id": 22
-        }
-      }
-    },
-    "-1": {
+    "-21": {
       "title": "Haalbaarheid",
       "id": 25,
       "ideas": {
@@ -125,23 +273,39 @@
           "title": "Kosten",
           "id": 26,
           "ideas": {
-            "1": {
-              "title": "Opzetten framework?",
-              "id": 27
-            },
             "2": {
               "title": "Extra ontwikkeltijd?",
-              "id": 28
+              "id": 28,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "3": {
+              "title": "Terugverdientijd",
+              "id": 29,
+              "ideas": {
+                "1": {
+                  "title": "Hoelang heeft InfraAtlas bestaansrecht?",
+                  "id": 30,
+                  "attr": {
+                    "style": {
+                      "background": "#ff9900"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             }
-          }
-        },
-        "2": {
-          "title": "Terugverdientijd",
-          "id": 29,
-          "ideas": {
-            "1": {
-              "title": "Hoelang heeft InfraAtlas bestaansrecht",
-              "id": 30
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
             }
           }
         },
@@ -151,11 +315,23 @@
           "ideas": {
             "1": {
               "title": "mindset",
-              "id": 32
-            },
-            "2": {
-              "title": "proberen",
-              "id": 33
+              "id": 32,
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "proberen",
+                  "id": 33,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
             },
             "3": {
               "title": "doen",
@@ -163,9 +339,106 @@
               "ideas": {
                 "1": {
                   "title": "zonder terugval",
-                  "id": 35
+                  "id": 35,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
                 }
               }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff9900"
+        }
+      }
+    },
+    "0.5": {
+      "title": "SQL",
+      "id": 3,
+      "ideas": {
+        "0.25": {
+          "title": "Problemen",
+          "id": 51,
+          "ideas": {
+            "1": {
+              "title": "SQL zit midden door PLSQL",
+              "id": 52,
+              "ideas": {
+                "1": {
+                  "title": "wrap SQL in kleine procedures/functions",
+                  "id": 6,
+                  "ideas": {
+                    "1": {
+                      "title": "performance?",
+                      "id": 53,
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            },
+            "2": {
+              "title": "DB nodig om te testen",
+              "id": 54,
+              "ideas": {
+                "1": {
+                  "title": "developer schema",
+                  "id": 22,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "0.5": {
+                  "title": "DBUnit",
+                  "id": 4,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ff0000"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#ff0000"
             }
           }
         }
@@ -181,6 +454,16 @@
           "color": "#FF0000",
           "lineStyle": "dashed",
           "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 63,
+      "ideaIdTo": 62,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
         }
       }
     }
