@@ -1,0 +1,175 @@
+{
+  "title": "Dakkapel",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "2": {
+      "title": "Bouwwijze",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "Prefab",
+          "id": 3
+        },
+        "2": {
+          "title": "Hand",
+          "id": 2
+        }
+      }
+    },
+    "3": {
+      "title": "Meedenken",
+      "id": 14,
+      "ideas": {
+        "1": {
+          "title": "Wat zien we over het hoofd?",
+          "id": 15
+        },
+        "3": {
+          "title": "Toekomstig onderhoud",
+          "id": 18
+        },
+        "4": {
+          "title": "ramen vs toekomstige zolderindeling",
+          "id": 23
+        }
+      }
+    },
+    "4": {
+      "title": "Kosten",
+      "id": 21,
+      "ideas": {
+        "1": {
+          "title": "Specificatie",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": "Wat mogen we verwachten?",
+              "id": 20
+            }
+          }
+        },
+        "2": {
+          "title": "Hoe gaat betaling?",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "arbeidsloon achteraf",
+              "id": 34
+            },
+            "0.5": {
+              "title": "materiaal vooraf",
+              "id": 35
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "title": "materialen",
+      "id": 38,
+      "ideas": {
+        "1": {
+          "title": "raam",
+          "id": 39,
+          "ideas": {
+            "1": {
+              "title": "draaikiep",
+              "id": 40
+            },
+            "2": {
+              "title": "dubbelglas",
+              "id": 41
+            },
+            "3": {
+              "title": "hout vs kunsstof",
+              "id": 42
+            }
+          }
+        },
+        "2": {
+          "title": "zonwering / blindering",
+          "id": 43
+        }
+      }
+    },
+    "-1": {
+      "title": "Inclusief",
+      "id": 5,
+      "ideas": {
+        "3": {
+          "title": "Binnenkant",
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Vensterbank",
+              "id": 10
+            },
+            "2": {
+              "title": "Afwerking",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "Oude of nieuwe gipsplaten?",
+                  "id": 13
+                }
+              }
+            },
+            "3": {
+              "title": "Constructiedak",
+              "id": 12
+            },
+            "4": {
+              "title": "isolatie",
+              "id": 37
+            }
+          }
+        },
+        "4": {
+          "title": "buitenkant",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "schilderen?",
+              "id": 25
+            },
+            "2": {
+              "title": "afwatering",
+              "id": 36
+            }
+          }
+        },
+        "5": {
+          "title": "afronden",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "Bouwafval",
+              "id": 7
+            },
+            "2": {
+              "title": "opruimen?",
+              "id": 31
+            }
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "Kwaliteit",
+      "id": 19,
+      "ideas": {}
+    },
+    "-3": {
+      "title": "voorbereiding",
+      "id": 28,
+      "ideas": {
+        "1": {
+          "title": "Wat moeten wij doen?",
+          "id": 32
+        }
+      }
+    }
+  },
+  "links": []
+}
